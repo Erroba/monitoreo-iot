@@ -15,9 +15,9 @@ int contconexion = 0;
 unsigned long previousMillis = 0;
 unsigned long previousMillis2 = 0;
 
-const char *ssid = "LIAPEP_PRO";
-const char *password = "powerlab";
-const char* mqtt_server = "monitoreoiot.ddns.net";
+const char *ssid = "CDTS";
+const char *password = "cdts";
+const char* mqtt_server = "casabotella.ddns.net";
 String USERNAME = "esp2";   
 
 WiFiClient espClient;
