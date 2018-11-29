@@ -14,9 +14,9 @@ const float multiplier = 0.000125F;
 
 //const char *ssid = "ARRIS-CA02";
 //const char *password = "A434F4CA8BC88C56";
-const char *ssid = "LIAPEP_PRO";
-const char *password = "powerlab";
-const char* mqtt_server = "monitoreoiot.ddns.net";
+const char *ssid = "CDTS";
+const char *password = "cdts";
+const char* mqtt_server = "casabotella.ddns.net";
 const String USERNAME = "esp1";   
 
 
