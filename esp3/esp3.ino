@@ -16,9 +16,9 @@ unsigned int localPort = 2390;      // local port to listen for UDP packets
 Adafruit_ADS1115 ads;
 const float multiplier = 0.000125F;
 
-const char *ssid = "LIAPEP_PRO";
-const char *password = "powerlab";
-const char* mqtt_server = "monitoreoiot.ddns.net";
+const char *ssid = "CDTS";
+const char *password = "cdts";
+const char* mqtt_server = "casabotella.ddns.net";
 String USERNAME = "esp3";   
 
 WiFiClient espClient;
