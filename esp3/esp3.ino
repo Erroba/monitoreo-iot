@@ -99,6 +99,7 @@ void reconnect() {
 void setup() {
   pinMode(12, OUTPUT);
   Wire.begin();
+  Serial.begin(115200);
   Serial.println();
   Serial.println();
   Serial.setTimeout(2000);
