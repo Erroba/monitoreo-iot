@@ -2,7 +2,7 @@
 function conectarBD1(){ 
             $server = "localhost";
             $usuario = "root";
-            $pass = "password";
+            $pass = "monitoreo";
             $BD = "monitoreo";
             //variable que guarda la conexión de la base de datos
             $conexion = mysqli_connect($server, $usuario, $pass, $BD); 
