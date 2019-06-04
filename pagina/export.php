@@ -2,7 +2,7 @@
 // Range.php
 if(isset($_POST["export"]))
 {
-      $conn = mysqli_connect("localhost", "root", "password", "monitoreo");
+      $conn = mysqli_connect("localhost", "root", "monitoreo", "monitoreo");
       header('Content-Type: text/csv; charset=utf-8');  
       header('Content-Disposition: attachment; filename=data.csv');  
       $output = fopen("php://output", "w");  
